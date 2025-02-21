@@ -67,9 +67,65 @@ button:focus-visible {
   }
 }
 
-.gato{
-  background-color: red;
-  margin: 24px;
-  padding: 12px;
+.id-card{
+  min-width: 400px;
+  margin: 20px;
+  border: 1px solid white;
+  padding: 20px;
   border-radius: 4px;
-}refdvafrsdcdsfvzx
+  display: flex;
+  gap: 20px;
+  text-align: left;
+}
+
+.id-card.male{
+  background-color:#bbb ;
+}
+
+.id-card.female{
+  background-color:#777 ;
+}
+
+.randomNumber{
+  min-width: 400px;
+  margin: 20px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  text-align: left;
+}
+
+.greetings{
+  min-width: 400px;
+  margin: 20px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  text-align: left;
+}
+
+.boxColor {
+  padding: 20px;
+  margin: 10px 0;
+  text-align: center;
+  color: white; 
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.laranjas.normal{
+  background-color: aquamarine;
+}
+
+.laranjas.low{
+  background-color: lightyellow;
+}
+
+.laranjas.none{
+  background-color: pink;
+}
